@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+form {
+	width: 300px;
+	height: 430px;
+	padding: 35px;
+	background-color: lightgrey;
+	margin: auto;
+	border-radius: 10px;
+	margin-top: 80px;
+}
+form label {
+	display: block;
+	padding: 20px;
+}
+form input {
+	padding: 7px 10px;
+	border-radius: 5px;
+	width: 240px;
+	border: 0px;
+}
+/*form label input[type="button"] {
+	border: 1px solid black;
+	margin-left: 10px;
+	color: black;	
+}*/
+form label input[type="submit"] {
+	border: 1px solid black;
+	margin-left: 10px;
+}
+form label input[type="checkbox"] {
+	width: auto;
+}
+form label #tc {
+	text-decoration: none;
+}
+#links {
+	margin-left: 35px;
+}
+#signUp {
+	margin: 0 10px 0 20px;
+}
+#recover {
+	margin: 0 0 0 10px;
+}
